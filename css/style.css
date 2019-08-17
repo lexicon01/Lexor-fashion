@@ -1,0 +1,79 @@
+.logo-name {
+  font-family: 'Faster One', cursive;
+  font-size: 2rem;
+  color: #928e8e;
+  position: relative;
+  left: 10px; }
+
+.navbar img {
+  position: relative;
+  top: -3px; }
+
+.navbar .nav-item {
+  margin-right: 3rem; }
+
+.navbar .menu-line {
+  position: relative;
+  top: 1.6rem;
+  width: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 2px;
+  background-color: #666;
+  position: relative;
+  right: 1rem; }
+
+.navbar a {
+  font-size: 1.3rem; }
+
+.navbar-nav {
+  position: relative;
+  left: 16rem; }
+
+.navbar .menu-end-icons {
+  display: flex;
+  position: relative;
+  top: 1.2rem;
+  left: 20rem; }
+  .navbar .menu-end-icons li {
+    list-style: none;
+    padding: 0 1rem; }
+  .navbar .menu-end-icons .img-icon {
+    height: 60%; }
+
+.hero-row .hero-right {
+  width: 100%;
+  height: auto;
+  margin-top: 3rem; }
+  .hero-row .hero-right .hero-heading {
+    position: relative;
+    left: 5rem; }
+    .hero-row .hero-right .hero-heading .lead {
+      position: relative;
+      right: -20px;
+      font-weight: 800;
+      color: rgba(80, 77, 77, 0.3); }
+  .hero-row .hero-right .hero-line {
+    display: block;
+    top: 1.6rem;
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    background-color: #949393;
+    position: relative;
+    top: 15px;
+    right: 5rem; }
+  .hero-row .hero-right .vertical-menu {
+    list-style: none;
+    display: flex;
+    transform: rotate(-90deg) translate(-25rem); }
+    .hero-row .hero-right .vertical-menu .right-h-line {
+      border-left: 6px solid #949393;
+      height: 330px;
+      position: absolute;
+      left: 10;
+      top: 30;
+      transform: rotate(90deg) translate(-7rem, -11rem); }
+    .hero-row .hero-right .vertical-menu li a {
+      color: black; }

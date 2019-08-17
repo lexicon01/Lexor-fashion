@@ -1,0 +1,128 @@
+.logo-name {
+    font-family: 'Faster One', cursive;
+    font-size: 2rem;
+    color: rgb(146, 142, 142);
+    position: relative;
+    left: 10px;
+}
+.navbar {
+    img{
+        position: relative;
+        top: -3px;
+        
+    }
+
+    .nav-item {
+        margin-right: 3rem;
+    }
+
+
+    .menu-line {
+        position: relative;
+        top: 1.6rem;
+        width: 160px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 2px;
+        background-color:#666;
+        position: relative;
+        right: 1rem;
+    }
+    a {
+        font-size: 1.3rem;
+    }
+
+    &-nav {
+        position: relative;
+        left: 16rem;
+    }
+
+    .menu-end-icons {
+        display: flex;
+        position: relative;
+        top: 1.2rem;
+        left: 20rem;
+        
+        li {
+            list-style: none;
+            padding: 0 1rem;
+        }
+        
+        .img-icon {
+            height: 60%;
+        }
+    }
+    
+}
+// End of Navbar
+
+.hero-row {
+
+    .hero-right {
+
+        width: 100%;
+        height: auto;
+        margin-top: 3rem;
+        
+        .hero-heading {
+
+            position: relative;
+            left: 5rem;
+            .lead {
+                position: relative;
+                right: -20px;
+                font-weight: 800;
+                color: rgba(80, 77, 77, 0.3);
+            }
+        }
+        .hero-line{
+
+            display: block;
+            top: 1.6rem;
+            width: 160px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 2px;
+            background-color: rgb(148, 147, 147);
+            position: relative;
+            top: 15px;
+            right: 5rem;
+        }
+        //end of hero-right heading & line
+
+        //vertical menu
+        .vertical-menu{
+            list-style: none;
+            display: flex;
+
+            transform: rotate(-90deg) translate(-25rem);
+
+            // vertical menu line
+            .right-h-line {
+                border-left: 6px solid rgb(148, 147, 147);
+                height: 330px;
+                position: absolute;
+                left: 10;
+
+                top: 30;
+                transform:rotate(90deg) translate(-7rem, -11rem);      
+            }
+            
+            li {
+                
+
+                a {
+                    color: black;
+                }
+            }
+            
+       
+        }
+        // End of vertical menu
+
+    }
+    
+    .col {
+        
+    }
+}
