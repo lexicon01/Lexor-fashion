@@ -69,7 +69,7 @@
     display: flex;
     transform: rotate(-90deg) translate(-25rem); }
     .hero-row .hero-right .vertical-menu .right-h-line {
-      border-left: 6px solid #949393;
+      border-left: 4px solid #949393;
       height: 330px;
       position: absolute;
       left: 10;
