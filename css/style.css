@@ -89,4 +89,32 @@
     font-weight: 700; }
   .hero-row .right-content .down-arrow {
     font-size: 3rem;
-    transform: rotate(60deg); }
+    position: relative;
+    top: -2rem; }
+
+.hero-row .btm-box-content {
+  position: relative;
+  background-color: #47b89f;
+  width: 70%;
+  height: 200px;
+  top: 3.9rem;
+  left: 15.5rem; }
+  .hero-row .btm-box-content .btm-pro-img {
+    padding: 1rem;
+    width: 200px;
+    height: 210px;
+    background: #020024;
+    background: linear-gradient(9deg, #020024 0%, #5ae6c3 100%, #00d4ff 100%);
+    display: block;
+    position: relative;
+    left: 16rem;
+    top: -15rem; }
+  .hero-row .btm-box-content .pro-img {
+    width: 9.5rem;
+    position: relative;
+    top: 8px;
+    left: 7px; }
+  .hero-row .btm-box-content p {
+    width: 50%;
+    color: #f3f0f0;
+    font-size: 1rem; }

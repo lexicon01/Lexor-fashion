@@ -138,8 +138,46 @@
 
         .down-arrow{
             font-size: 3rem;
-            transform: rotate(60deg);
+            position: relative;
+            top: -2rem;
         }
     }
+ 
+    .btm-box-content {
+        position: relative;
+        background-color: rgb(71, 184, 159);
+        width: 70%;
+        height: 200px;
+        top: 3.9rem;
+        left: 15.5rem;
+
+        .btm-pro-img {
+            padding: 1rem;
+            width: 200px;
+            height: 210px;
+            background: rgb(2,0,36);
+            background: linear-gradient(9deg, rgba(2,0,36,1) 0%, rgb(90, 230, 195) 100%, rgba(0,212,255,1) 100%);
+            display: block;
+            position: relative;
+            left: 16rem;
+            top: -15rem;
+            // border: 6px solid blue; you used this to find the area of the box behind the img.. very usefull
+        }
+
+        .pro-img {
+            width: 9.5rem;
+            position: relative;
+            top: 8px;
+            left: 7px;
+        }
+        
+        p {
+            width: 50%;
+            color: rgb(243, 240, 240);
+            font-size: 1rem;
+        }
+
+    }
+
  
 }
