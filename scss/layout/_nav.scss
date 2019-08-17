@@ -122,7 +122,24 @@
 
     }
     
-    .col {// chea
-        
+    .right-content{
+        position: relative;
+        top: 3rem;
+        left: 2rem;
+        .hero-r-para {// chea
+            width: 60%;
+            position: relative;
+            
+        }
+
+        .lead {
+            font-weight: 700;
+        }
+
+        .down-arrow{
+            font-size: 3rem;
+            transform: rotate(60deg);
+        }
     }
+ 
 }

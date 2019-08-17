@@ -77,3 +77,16 @@
       transform: rotate(90deg) translate(-7rem, -11rem); }
     .hero-row .hero-right .vertical-menu li a {
       color: black; }
+
+.hero-row .right-content {
+  position: relative;
+  top: 3rem;
+  left: 2rem; }
+  .hero-row .right-content .hero-r-para {
+    width: 60%;
+    position: relative; }
+  .hero-row .right-content .lead {
+    font-weight: 700; }
+  .hero-row .right-content .down-arrow {
+    font-size: 3rem;
+    transform: rotate(60deg); }
