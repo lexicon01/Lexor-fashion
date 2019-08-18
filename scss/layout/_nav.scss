@@ -56,6 +56,8 @@
 }
 // End of Navbar
 
+
+// hero home page
 .hero-row {
 
     .hero-right {
@@ -149,7 +151,7 @@
         width: 70%;
         height: 200px;
         top: 3.9rem;
-        left: 15.5rem;
+        left: 15rem;
 
         .btm-pro-img {
             padding: 1rem;
@@ -179,5 +181,85 @@
 
     }
 
- 
+    // hero left column
+    .hero-left {
+        padding: 0rem;
+        .left-heading-title {
+            text-align: center;
+            position: relative;
+            top: 2.8rem;
+        }
+
+        .cus-grid  {
+            margin-top: 3rem;
+            ;
+
+            // vertical line on right grid pic section
+            .vertical-group-line {
+                position: relative;
+                left: 2rem;
+                top: 4rem;
+            }
+
+            .vertical-xm-line {
+                border-left: 4px solid rgb(148, 147, 147);
+                height: 25px;
+                position: absolute;
+                left: 10;
+
+                top: 30;
+                transform:rotate(-0deg) translate(.2rem, 20.5rem);  
+                width: 100px;
+            }
+
+            .vertical-sm-line {
+                border-left: 4px solid rgb(148, 147, 147);
+                height: 45px;
+                position: absolute;
+
+                transform:rotate(-0deg) translate(.2rem, 17.4rem);  
+                width: 100px;
+            }
+    
+            .vertical-line {
+                border-left: 4px solid rgb(148, 147, 147);
+                height: 220px;
+                position: absolute;
+                left: 10;
+
+                top: 30;
+                transform:rotate(-0deg) translate(.2rem, 3.2rem);  
+                width: 100px;
+            }
+
+
+            .vertical-text {
+                transform:rotate(-90deg) translate(-1rem, -.7rem); 
+                display: block;
+            }
+            
+
+            // img - column
+            .img-column {
+                flex-direction: column;
+                img {
+                    width: 150px;
+                    height: auto;
+                    margin-bottom: 1.3rem;
+                }
+            }
+
+            .lg-pic {
+                width: 400px;
+                height: auto;
+                position: relative;
+                left: -1.3rem;
+                overflow: hidden;
+                img {
+                    width: 350px;
+                    height: auto;
+                }
+            }
+        }
+    }
 }

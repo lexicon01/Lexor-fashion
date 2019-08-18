@@ -98,7 +98,7 @@
   width: 70%;
   height: 200px;
   top: 3.9rem;
-  left: 15.5rem; }
+  left: 15rem; }
   .hero-row .btm-box-content .btm-pro-img {
     padding: 1rem;
     width: 200px;
@@ -118,3 +118,56 @@
     width: 50%;
     color: #f3f0f0;
     font-size: 1rem; }
+
+.hero-row .hero-left {
+  padding: 0rem; }
+  .hero-row .hero-left .left-heading-title {
+    text-align: center;
+    position: relative;
+    top: 2.8rem; }
+  .hero-row .hero-left .cus-grid {
+    margin-top: 3rem; }
+    .hero-row .hero-left .cus-grid .vertical-group-line {
+      position: relative;
+      left: 2rem;
+      top: 4rem; }
+    .hero-row .hero-left .cus-grid .vertical-xm-line {
+      border-left: 4px solid #949393;
+      height: 25px;
+      position: absolute;
+      left: 10;
+      top: 30;
+      transform: rotate(0deg) translate(0.2rem, 20.5rem);
+      width: 100px; }
+    .hero-row .hero-left .cus-grid .vertical-sm-line {
+      border-left: 4px solid #949393;
+      height: 45px;
+      position: absolute;
+      transform: rotate(0deg) translate(0.2rem, 17.4rem);
+      width: 100px; }
+    .hero-row .hero-left .cus-grid .vertical-line {
+      border-left: 4px solid #949393;
+      height: 220px;
+      position: absolute;
+      left: 10;
+      top: 30;
+      transform: rotate(0deg) translate(0.2rem, 3.2rem);
+      width: 100px; }
+    .hero-row .hero-left .cus-grid .vertical-text {
+      transform: rotate(-90deg) translate(-1rem, -0.7rem);
+      display: block; }
+    .hero-row .hero-left .cus-grid .img-column {
+      flex-direction: column; }
+      .hero-row .hero-left .cus-grid .img-column img {
+        width: 150px;
+        height: auto;
+        margin-bottom: 1.3rem; }
+    .hero-row .hero-left .cus-grid .lg-pic {
+      width: 400px;
+      height: auto;
+      position: relative;
+      left: -1.3rem;
+      overflow: hidden; }
+      .hero-row .hero-left .cus-grid .lg-pic img {
+        width: 350px;
+        height: auto; }
