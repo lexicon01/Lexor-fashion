@@ -97,7 +97,7 @@
   background-color: #47b89f;
   width: 70%;
   height: 200px;
-  top: 3.9rem;
+  top: 0rem;
   left: 15rem; }
   .hero-row .btm-box-content .btm-pro-img {
     padding: 1rem;
@@ -124,9 +124,9 @@
   .hero-row .hero-left .left-heading-title {
     text-align: center;
     position: relative;
-    top: 2.8rem; }
+    top: 2rem; }
   .hero-row .hero-left .cus-grid {
-    margin-top: 3rem; }
+    margin-top: 2rem; }
     .hero-row .hero-left .cus-grid .vertical-group-line {
       position: relative;
       left: 2rem;
@@ -159,7 +159,7 @@
     .hero-row .hero-left .cus-grid .img-column {
       flex-direction: column; }
       .hero-row .hero-left .cus-grid .img-column img {
-        width: 150px;
+        width: 155px;
         height: auto;
         margin-bottom: 1.3rem; }
     .hero-row .hero-left .cus-grid .lg-pic {
@@ -171,3 +171,19 @@
       .hero-row .hero-left .cus-grid .lg-pic img {
         width: 350px;
         height: auto; }
+  .hero-row .hero-left .social-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    left: -9rem; }
+    .hero-row .hero-left .social-links ul a {
+      padding: 0 1rem 0 1rem;
+      list-style: none;
+      color: black; }
+  .hero-row .hero-left .copy-right {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -10px;
+    left: -10rem; }

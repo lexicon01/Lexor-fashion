@@ -150,7 +150,7 @@
         background-color: rgb(71, 184, 159);
         width: 70%;
         height: 200px;
-        top: 3.9rem;
+        top: 0rem; // used to be at 3rem.. need fix / spacing issue
         left: 15rem;
 
         .btm-pro-img {
@@ -187,11 +187,11 @@
         .left-heading-title {
             text-align: center;
             position: relative;
-            top: 2.8rem;
+            top: 2rem;
         }
 
         .cus-grid  {
-            margin-top: 3rem;
+            margin-top: 2rem;
             ;
 
             // vertical line on right grid pic section
@@ -243,7 +243,7 @@
             .img-column {
                 flex-direction: column;
                 img {
-                    width: 150px;
+                    width: 155px;
                     height: auto;
                     margin-bottom: 1.3rem;
                 }
@@ -260,6 +260,31 @@
                     height: auto;
                 }
             }
+
+
+        }
+        .social-links {
+            ul{
+                list-style: none;
+                display: flex;
+                justify-content: flex-end ;
+                position: relative;
+                left: -9rem;
+               a {
+                
+                padding: 0 1rem 0 1rem;
+                list-style: none;
+                color: black;
+               } 
+            }
+        }
+
+        .copy-right {
+            display: flex;
+            justify-content: flex-end;
+            position: relative;
+            top: -10px;
+            left: -10rem;
         }
     }
 }
