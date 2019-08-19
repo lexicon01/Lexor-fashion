@@ -101,12 +101,24 @@
   width: 30rem;
   min-width: 30rem;
   height: 200px;
-  top: 1rem;
+  top: 1.3rem;
   left: 15rem; }
   @media only screen and (max-width: 88em) {
     .hero-row .btm-box-content {
       left: 8rem;
       top: -1rem; } }
+  @media only screen and (max-width: 73.4em) {
+    .hero-row .btm-box-content {
+      width: 380px;
+      min-width: 380px; } }
+  @media only screen and (max-width: 61.937em) {
+    .hero-row .btm-box-content {
+      left: 15rem;
+      top: -1rem; } }
+  @media only screen and (max-width: 52em) {
+    .hero-row .btm-box-content {
+      left: 12rem;
+      top: 1rem; } }
   .hero-row .btm-box-content .btm-pro-img {
     padding: 1rem;
     width: 200px;
@@ -122,6 +134,14 @@
       .hero-row .btm-box-content .btm-pro-img {
         left: 14rem;
         top: -20rem; } }
+    @media only screen and (max-width: 73.4em) {
+      .hero-row .btm-box-content .btm-pro-img {
+        left: 10rem;
+        top: -28rem; } }
+    @media only screen and (max-width: 61.937em) {
+      .hero-row .btm-box-content .btm-pro-img {
+        left: 14rem;
+        top: -15rem; } }
   .hero-row .btm-box-content .pro-img {
     width: 9.5rem;
     position: relative;

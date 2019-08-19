@@ -17,6 +17,15 @@
     @if $breakpoint == bg-desk-cus {
         @media only screen and (max-width: 88em) { @content };    //1800
     }
+    @if $breakpoint == lg-desk-cus {
+        @media only screen and (max-width: 73.4em) { @content };    //1800
+    }
+    @if $breakpoint == lg-desk-max-cus {
+        @media only screen and (max-width: 61.937em) { @content };    //1800
+    }
+    @if $breakpoint == tab-land-cus {
+        @media only screen and (max-width: 52em) { @content };    //1800
+    }
     // @if $breakpoint == big-desktop {
     //     @media only screen and (min-width: 112.5em) { @content };    //1800
     // }

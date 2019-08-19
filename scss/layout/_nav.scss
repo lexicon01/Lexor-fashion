@@ -155,13 +155,30 @@
         width: 30rem;
         min-width: 30rem;
         height: 200px;
-        top: 1rem; // used to be at 3rem.. need fix / spacing issue
+        top: 1.3rem; // used to be at 3rem.. need fix / spacing issue
         left: 15rem;
 
         //point break fix for this box
+    
+
         @include respond(bg-desk-cus) {
             left: 8rem;
             top: -1rem;
+        }
+
+        @include respond(lg-desk-cus){
+            width: 380px;
+            min-width: 380px
+        }
+
+        @include respond(lg-desk-max-cus) {
+            left: 15rem;
+            top: -1rem;
+        }
+
+        @include respond(tab-land-cus) {
+            left: 12rem;
+            top: 1rem;
         }
 
         .btm-pro-img {
@@ -181,6 +198,16 @@
             @include respond(bg-desk-cus) {
                 left: 14rem;
                 top: -20rem;
+            }
+
+            @include respond(lg-desk-cus) {
+                left: 10rem;
+                top: -28rem;
+            }
+
+            @include respond(lg-desk-max-cus) {
+                left: 14rem;
+                top: -15rem;
             }
         }
 
