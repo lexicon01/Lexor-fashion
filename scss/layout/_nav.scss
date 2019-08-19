@@ -145,6 +145,10 @@
         }
     }
  
+    .box {
+        position: relative;
+    }
+
     .btm-box-content {
         position: relative;
         background-color: rgb(71, 184, 159);
@@ -153,6 +157,12 @@
         height: 200px;
         top: 1rem; // used to be at 3rem.. need fix / spacing issue
         left: 15rem;
+
+        //point break fix for this box
+        @include respond(bg-desk-cus) {
+            left: 8rem;
+            top: -1rem;
+        }
 
         .btm-pro-img {
             padding: 1rem;
@@ -166,6 +176,12 @@
             left: 15rem;
             top: -15rem;
             // border: 6px solid blue; you used this to find the area of the box behind the img.. very usefull
+
+            //point break fix for this img
+            @include respond(bg-desk-cus) {
+                left: 14rem;
+                top: -20rem;
+            }
         }
 
         .pro-img {

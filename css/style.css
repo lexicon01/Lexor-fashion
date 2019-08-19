@@ -92,6 +92,9 @@
     position: relative;
     top: -2rem; }
 
+.hero-row .box {
+  position: relative; }
+
 .hero-row .btm-box-content {
   position: relative;
   background-color: #47b89f;
@@ -100,6 +103,10 @@
   height: 200px;
   top: 1rem;
   left: 15rem; }
+  @media only screen and (max-width: 88em) {
+    .hero-row .btm-box-content {
+      left: 8rem;
+      top: -1rem; } }
   .hero-row .btm-box-content .btm-pro-img {
     padding: 1rem;
     width: 200px;
@@ -111,6 +118,10 @@
     position: relative;
     left: 15rem;
     top: -15rem; }
+    @media only screen and (max-width: 88em) {
+      .hero-row .btm-box-content .btm-pro-img {
+        left: 14rem;
+        top: -20rem; } }
   .hero-row .btm-box-content .pro-img {
     width: 9.5rem;
     position: relative;
