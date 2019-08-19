@@ -64,10 +64,17 @@
     position: relative;
     top: 15px;
     right: 5rem; }
+    @media only screen and (max-width: 37.5em) {
+      .hero-row .hero-right .hero-line {
+        width: 100px;
+        right: -1rem; } }
   .hero-row .hero-right .vertical-menu {
     list-style: none;
     display: flex;
     transform: rotate(-90deg) translate(-25rem); }
+    @media only screen and (max-width: 37.5em) {
+      .hero-row .hero-right .vertical-menu {
+        transform: rotate(0deg) translate(-1.2rem); } }
     .hero-row .hero-right .vertical-menu .right-h-line {
       border-left: 4px solid #949393;
       height: 330px;
@@ -75,22 +82,49 @@
       left: 10;
       top: 30;
       transform: rotate(90deg) translate(-7rem, -11rem); }
+      @media only screen and (max-width: 37.5em) {
+        .hero-row .hero-right .vertical-menu .right-h-line {
+          top: -1rem; } }
     .hero-row .hero-right .vertical-menu li a {
       color: black; }
 
 .hero-row .right-content {
   position: relative;
-  top: 1rem;
-  left: 2rem; }
+  top: -2rem;
+  left: 10rem; }
+  @media only screen and (max-width: 52em) {
+    .hero-row .right-content {
+      left: 8rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .hero-row .right-content {
+      top: 0rem;
+      left: 3rem; } }
+  .hero-row .right-content .h1 {
+    font-size: 2.1rem; }
   .hero-row .right-content .hero-r-para {
     width: 60%;
     position: relative; }
+    @media only screen and (max-width: 37.5em) {
+      .hero-row .right-content .hero-r-para {
+        width: 50%;
+        font-size: 1rem; } }
+    @media only screen and (max-width: 56.25em) {
+      .hero-row .right-content .hero-r-para {
+        width: 60%; } }
   .hero-row .right-content .lead {
     font-weight: 700; }
+    @media only screen and (max-width: 37.5em) {
+      .hero-row .right-content .lead {
+        font-size: 1.2rem;
+        font-weight: 500; } }
   .hero-row .right-content .down-arrow {
     font-size: 3rem;
     position: relative;
     top: -2rem; }
+    @media only screen and (max-width: 37.5em) {
+      .hero-row .right-content .down-arrow {
+        font-size: 2rem;
+        top: -1.6rem; } }
 
 .hero-row .box {
   position: relative; }
@@ -101,7 +135,7 @@
   width: 30rem;
   min-width: 30rem;
   height: 200px;
-  top: 1.3rem;
+  top: 3.3rem;
   left: 15rem; }
   @media only screen and (max-width: 88em) {
     .hero-row .btm-box-content {
@@ -117,8 +151,12 @@
       top: -1rem; } }
   @media only screen and (max-width: 52em) {
     .hero-row .btm-box-content {
-      left: 12rem;
-      top: 1rem; } }
+      left: 8.2rem;
+      top: -3rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .hero-row .btm-box-content {
+      left: 3rem;
+      top: -1rem; } }
   .hero-row .btm-box-content .btm-pro-img {
     padding: 1rem;
     width: 200px;
@@ -132,16 +170,20 @@
     top: -15rem; }
     @media only screen and (max-width: 88em) {
       .hero-row .btm-box-content .btm-pro-img {
-        left: 14rem;
-        top: -20rem; } }
+        left: 15rem;
+        top: -17rem; } }
     @media only screen and (max-width: 73.4em) {
       .hero-row .btm-box-content .btm-pro-img {
-        left: 10rem;
-        top: -28rem; } }
+        left: 10.7rem;
+        top: -18rem; } }
     @media only screen and (max-width: 61.937em) {
       .hero-row .btm-box-content .btm-pro-img {
         left: 14rem;
         top: -15rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .hero-row .btm-box-content .btm-pro-img {
+        left: 11rem;
+        top: -16rem; } }
   .hero-row .btm-box-content .pro-img {
     width: 9.5rem;
     position: relative;

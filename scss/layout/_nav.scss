@@ -89,6 +89,11 @@
             position: relative;
             top: 15px;
             right: 5rem;
+
+            @include respond(phone) {
+                width: 100px;
+                right: -1rem;
+            }
         }
         //end of hero-right heading & line
 
@@ -99,6 +104,11 @@
 
             transform: rotate(-90deg) translate(-25rem);
 
+            @include respond(phone) {
+                transform: rotate(0deg) translate(-1.2rem);
+
+            }
+
             // vertical menu line
             .right-h-line {
                 border-left: 4px solid rgb(148, 147, 147);
@@ -107,7 +117,11 @@
                 left: 10;
 
                 top: 30;
-                transform:rotate(90deg) translate(-7rem, -11rem);      
+                transform:rotate(90deg) translate(-7rem, -11rem);  
+                
+                @include respond(phone) {
+                    top: -1rem;
+                }
             }
             
             li {
@@ -126,22 +140,57 @@
     
     .right-content{
         position: relative;
-        top: 1rem;
-        left: 2rem;
+        top: -2rem;
+        left: 10rem;
+
+        @include respond(tab-land-cus) {//crazy custom fixes for this omg..
+            left: 8rem;
+        }
+   
+        // text elegance and explore arrow
+        @include respond(phone) {
+            top: 0rem;
+            left: 3rem;
+        }
+
+      
+        .h1 {
+            font-size: 2.1rem;
+        }
+
         .hero-r-para {// chea
             width: 60%;
             position: relative;
             
+            @include respond(phone) {
+                width: 50%;
+                font-size: 1rem;
+                
+            }
+
+            @include respond(tab-port) {
+                width: 60%;
+            }
         }
 
         .lead {
             font-weight: 700;
+
+            @include respond(phone) {
+                font-size: 1.2rem;
+                font-weight: 500;
+            }
         }
 
         .down-arrow{
             font-size: 3rem;
             position: relative;
             top: -2rem;
+
+            @include respond(phone) {
+                font-size: 2rem;
+                top: -1.6rem;
+            }
         }
     }
  
@@ -155,7 +204,7 @@
         width: 30rem;
         min-width: 30rem;
         height: 200px;
-        top: 1.3rem; // used to be at 3rem.. need fix / spacing issue
+        top: 3.3rem; // used to be at 3rem.. need fix / spacing issue
         left: 15rem;
 
         //point break fix for this box
@@ -177,8 +226,12 @@
         }
 
         @include respond(tab-land-cus) {
-            left: 12rem;
-            top: 1rem;
+            left: 8.2rem;
+            top: -3rem;
+        }
+        @include respond(phone) {
+            left: 3rem;
+            top: -1rem;
         }
 
         .btm-pro-img {
@@ -196,18 +249,24 @@
 
             //point break fix for this img
             @include respond(bg-desk-cus) {
-                left: 14rem;
-                top: -20rem;
+                left: 15rem;
+                top: -17rem;
             }
 
             @include respond(lg-desk-cus) {
-                left: 10rem;
-                top: -28rem;
+                left: 10.7rem;
+                top: -18rem;
             }
 
             @include respond(lg-desk-max-cus) {
                 left: 14rem;
                 top: -15rem;
+            }
+
+            @include respond(phone) {
+                left: 11rem;
+                top: -16rem;
+                
             }
         }
 
