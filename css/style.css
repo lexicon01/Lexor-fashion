@@ -80,7 +80,7 @@
 
 .hero-row .right-content {
   position: relative;
-  top: 3rem;
+  top: 1rem;
   left: 2rem; }
   .hero-row .right-content .hero-r-para {
     width: 60%;
@@ -95,19 +95,21 @@
 .hero-row .btm-box-content {
   position: relative;
   background-color: #47b89f;
-  width: 70%;
+  width: 30rem;
+  min-width: 30rem;
   height: 200px;
-  top: 0rem;
+  top: 1rem;
   left: 15rem; }
   .hero-row .btm-box-content .btm-pro-img {
     padding: 1rem;
     width: 200px;
+    max-width: 200px;
     height: 210px;
     background: #020024;
     background: linear-gradient(9deg, #020024 0%, #5ae6c3 100%, #00d4ff 100%);
     display: block;
     position: relative;
-    left: 16rem;
+    left: 15rem;
     top: -15rem; }
   .hero-row .btm-box-content .pro-img {
     width: 9.5rem;
@@ -120,13 +122,18 @@
     font-size: 1rem; }
 
 .hero-row .hero-left {
-  padding: 0rem; }
+  padding: 0rem;
+  position: relative;
+  top: 1rem; }
   .hero-row .hero-left .left-heading-title {
     text-align: center;
     position: relative;
     top: 2rem; }
   .hero-row .hero-left .cus-grid {
     margin-top: 2rem; }
+    .hero-row .hero-left .cus-grid .row-fix {
+      margin-right: 0;
+      margin-left: 0; }
     .hero-row .hero-left .cus-grid .vertical-group-line {
       position: relative;
       left: 2rem;

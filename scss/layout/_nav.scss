@@ -126,7 +126,7 @@
     
     .right-content{
         position: relative;
-        top: 3rem;
+        top: 1rem;
         left: 2rem;
         .hero-r-para {// chea
             width: 60%;
@@ -148,20 +148,22 @@
     .btm-box-content {
         position: relative;
         background-color: rgb(71, 184, 159);
-        width: 70%;
+        width: 30rem;
+        min-width: 30rem;
         height: 200px;
-        top: 0rem; // used to be at 3rem.. need fix / spacing issue
+        top: 1rem; // used to be at 3rem.. need fix / spacing issue
         left: 15rem;
 
         .btm-pro-img {
             padding: 1rem;
             width: 200px;
+            max-width: 200px;
             height: 210px;
             background: rgb(2,0,36);
             background: linear-gradient(9deg, rgba(2,0,36,1) 0%, rgb(90, 230, 195) 100%, rgba(0,212,255,1) 100%);
             display: block;
             position: relative;
-            left: 16rem;
+            left: 15rem;
             top: -15rem;
             // border: 6px solid blue; you used this to find the area of the box behind the img.. very usefull
         }
@@ -184,6 +186,8 @@
     // hero left column
     .hero-left {
         padding: 0rem;
+        position: relative;
+        top: 1rem;
         .left-heading-title {
             text-align: center;
             position: relative;
@@ -191,6 +195,11 @@
         }
 
         .cus-grid  {
+            .row-fix {
+                margin-right: 0;
+                margin-left: 0;
+            }
+
             margin-top: 2rem;
             ;
 
