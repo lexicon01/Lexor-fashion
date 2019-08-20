@@ -204,15 +204,16 @@
   .hero-row .hero-left .left-heading-title {
     text-align: center;
     position: relative;
-    top: 2rem; }
+    top: 2rem;
+    left: -2rem; }
     @media only screen and (max-width: 37.5em) {
       .hero-row .hero-left .left-heading-title {
         text-align: center;
         position: relative;
-        left: -3rem;
-        padding-bottom: 2rem; } }
+        left: -4.3rem;
+        padding-bottom: 1rem; } }
   .hero-row .hero-left .cus-grid {
-    margin-top: 2rem; }
+    margin-top: 2.5rem; }
     .hero-row .hero-left .cus-grid .row-fix {
       margin-right: 0;
       margin-left: 0; }
