@@ -244,13 +244,16 @@
         margin-bottom: 1.3rem; }
     .hero-row .hero-left .cus-grid .lg-pic {
       width: 400px;
-      height: auto;
+      height: 430px;
       position: relative;
       left: -1.3rem;
       overflow: hidden; }
       .hero-row .hero-left .cus-grid .lg-pic img {
         width: 350px;
         height: auto; }
+      .hero-row .hero-left .cus-grid .lg-pic .position-img {
+        position: relative;
+        top: -3rem; }
   .hero-row .hero-left .social-links ul {
     list-style: none;
     display: flex;
