@@ -198,10 +198,19 @@
   padding: 0rem;
   position: relative;
   top: 1rem; }
+  @media only screen and (max-width: 37.5em) {
+    .hero-row .hero-left {
+      transform: translate(5rem, 0); } }
   .hero-row .hero-left .left-heading-title {
     text-align: center;
     position: relative;
     top: 2rem; }
+    @media only screen and (max-width: 37.5em) {
+      .hero-row .hero-left .left-heading-title {
+        text-align: center;
+        position: relative;
+        left: -3rem;
+        padding-bottom: 2rem; } }
   .hero-row .hero-left .cus-grid {
     margin-top: 2rem; }
     .hero-row .hero-left .cus-grid .row-fix {
@@ -211,6 +220,9 @@
       position: relative;
       left: 2rem;
       top: 4rem; }
+      @media only screen and (max-width: 37.5em) {
+        .hero-row .hero-left .cus-grid .vertical-group-line {
+          display: none; } }
     .hero-row .hero-left .cus-grid .vertical-xm-line {
       border-left: 4px solid #949393;
       height: 25px;
@@ -242,6 +254,16 @@
         width: 155px;
         height: auto;
         margin-bottom: 1.3rem; }
+        @media only screen and (max-width: 37.5em) {
+          .hero-row .hero-left .cus-grid .img-column img {
+            width: 160px; } }
+      @media only screen and (max-width: 37.5em) {
+        .hero-row .hero-left .cus-grid .img-column img:first-child {
+          position: relative;
+          left: -1.3rem; } }
+      @media only screen and (max-width: 37.5em) {
+        .hero-row .hero-left .cus-grid .img-column img:last-child {
+          margin-left: .3rem; } }
     .hero-row .hero-left .cus-grid .lg-pic {
       width: 400px;
       height: 430px;
@@ -254,6 +276,12 @@
       .hero-row .hero-left .cus-grid .lg-pic .position-img {
         position: relative;
         top: -3rem; }
+  @media only screen and (max-width: 37.5em) {
+    .hero-row .hero-left .sm-footer {
+      text-align: center;
+      padding-top: 2rem;
+      position: relative;
+      right: 5.2rem; } }
   .hero-row .hero-left .social-links ul {
     list-style: none;
     display: flex;
@@ -264,9 +292,17 @@
       padding: 0 1rem 0 1rem;
       list-style: none;
       color: black; }
+      @media only screen and (max-width: 37.5em) {
+        .hero-row .hero-left .social-links ul a {
+          text-align: center; } }
   .hero-row .hero-left .copy-right {
     display: flex;
     justify-content: flex-end;
     position: relative;
     top: -10px;
     left: -10rem; }
+    @media only screen and (max-width: 37.5em) {
+      .hero-row .hero-left .copy-right {
+        text-align: center;
+        position: relative;
+        left: -11.4rem; } }

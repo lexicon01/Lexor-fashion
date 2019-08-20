@@ -290,10 +290,23 @@
         padding: 0rem;
         position: relative;
         top: 1rem;
+
+
+
+        @include respond(phone) {
+            transform: translate(5rem, 0);
+        }
         .left-heading-title {
             text-align: center;
             position: relative;
             top: 2rem;
+
+            @include respond(phone) {// centers heading photo grid
+                text-align: center;
+                position: relative;
+                left: -3rem;
+                padding-bottom: 2rem;
+            }
         }
 
         .cus-grid  {
@@ -310,6 +323,9 @@
                 position: relative;
                 left: 2rem;
                 top: 4rem;
+                @include respond(phone) {
+                    display: none;
+                }
             }
 
             .vertical-xm-line {
@@ -357,6 +373,29 @@
                     width: 155px;
                     height: auto;
                     margin-bottom: 1.3rem;
+
+                    @include respond(phone) {
+                        width: 160px;
+                    }
+                    
+                }
+
+                img:first-child {
+                
+
+                    @include respond(phone) {
+                        position: relative;
+                        left: -1.3rem;
+                        
+                    }
+                }
+
+                img:last-child {
+
+                    @include respond(phone) {
+                        margin-left: .3rem;
+
+                    }
                 }
             }
 
@@ -369,6 +408,8 @@
                 img {
                     width: 350px;
                     height: auto;
+
+               
                 }
 
                 .position-img {
@@ -379,6 +420,20 @@
 
 
         }
+
+        .sm-footer {
+            // if needed add styles to this area
+            // mainly have it for phone positioning.
+
+
+            @include respond(phone) {
+                text-align: center;
+                padding-top: 2rem;
+                position: relative;
+                right: 5.2rem;
+            }
+        }
+
         .social-links {
             ul{
                 list-style: none;
@@ -391,6 +446,10 @@
                 padding: 0 1rem 0 1rem;
                 list-style: none;
                 color: black;
+
+                @include respond(phone) {
+                    text-align: center;
+                }
                } 
             }
         }
@@ -401,6 +460,12 @@
             position: relative;
             top: -10px;
             left: -10rem;
+
+            @include respond(phone) {
+                text-align: center;
+                position: relative;
+                left: -11.4rem;
+            }
         }
     }
 }
