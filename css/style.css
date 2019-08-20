@@ -206,11 +206,17 @@
     position: relative;
     top: 2rem;
     left: -2rem; }
+    @media only screen and (max-width: 75em) {
+      .hero-row .hero-left .left-heading-title {
+        left: 3rem; } }
+    @media only screen and (max-width: 56.25em) {
+      .hero-row .hero-left .left-heading-title {
+        left: 3rem; } }
     @media only screen and (max-width: 37.5em) {
       .hero-row .hero-left .left-heading-title {
         text-align: center;
         position: relative;
-        left: -4.3rem;
+        left: -4rem;
         padding-bottom: 1rem; } }
   .hero-row .hero-left .cus-grid {
     margin-top: 2.5rem; }
@@ -262,22 +268,29 @@
         .hero-row .hero-left .cus-grid .img-column img:first-child {
           position: relative;
           left: -1.3rem; } }
-      @media only screen and (max-width: 37.5em) {
-        .hero-row .hero-left .cus-grid .img-column img:last-child {
-          margin-left: .3rem; } }
     .hero-row .hero-left .cus-grid .lg-pic {
-      width: 400px;
-      height: 430px;
+      width: 361px;
+      height: 443px;
       position: relative;
       left: -1.3rem;
       overflow: hidden; }
+      @media only screen and (max-width: 37.5em) {
+        .hero-row .hero-left .cus-grid .lg-pic {
+          left: -.3rem;
+          overflow: hidden; } }
       .hero-row .hero-left .cus-grid .lg-pic img {
         width: 350px;
         height: auto; }
+        @media only screen and (max-width: 37.5em) {
+          .hero-row .hero-left .cus-grid .lg-pic img {
+            width: 361px; } }
       .hero-row .hero-left .cus-grid .lg-pic .position-img {
         position: relative;
         top: -3rem;
         background-color: lightgray; }
+        @media only screen and (max-width: 37.5em) {
+          .hero-row .hero-left .cus-grid .lg-pic .position-img {
+            left: -2rem; } }
   @media only screen and (max-width: 37.5em) {
     .hero-row .hero-left .sm-footer {
       text-align: center;
