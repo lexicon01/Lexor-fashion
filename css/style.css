@@ -275,7 +275,8 @@
         height: auto; }
       .hero-row .hero-left .cus-grid .lg-pic .position-img {
         position: relative;
-        top: -3rem; }
+        top: -3rem;
+        background-color: lightgray; }
   @media only screen and (max-width: 37.5em) {
     .hero-row .hero-left .sm-footer {
       text-align: center;
