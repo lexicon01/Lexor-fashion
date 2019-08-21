@@ -13,7 +13,7 @@
     }
 
     .nav-item {
-        margin-right: 3rem;
+        margin-right: 1rem;
     }
 
 
@@ -139,12 +139,25 @@
     }
     
     .right-content{
-        position: relative;
-        top: -2rem;
-        left: 10rem;
+       // position: relative; useing this added unwanted white space.. try not to 
+       // top: 0rem;// used to be -2rem use this... ever..
+       // left: 0rem;//used to be 10rem
+
+       transform: translate(10rem, 0);
+
 
         @include respond(tab-land-cus) {//crazy custom fixes for this omg..
             left: 8rem;
+        }
+
+        @include respond(tab-port) {
+            transform: translate(8rem, -2rem);
+
+        }
+
+        @include respond(phone) {
+            transform: translate(3rem, 0);
+
         }
    
         // text elegance and explore arrow
@@ -204,15 +217,15 @@
         width: 30rem;
         min-width: 30rem;
         height: 200px;
-        top: 3.3rem; // used to be at 3rem.. need fix / spacing issue
+        bottom: -2rem; // used to be at 3rem.. need fix / spacing issue
         left: 15rem;
 
         //point break fix for this box
     
 
         @include respond(bg-desk-cus) {
-            left: 8rem;
-            top: -1rem;
+            left: 10rem;
+            top: 1rem;
         }
 
         @include respond(lg-desk-cus){
@@ -243,29 +256,29 @@
             background: linear-gradient(9deg, rgba(2,0,36,1) 0%, rgb(90, 230, 195) 100%, rgba(0,212,255,1) 100%);
             display: block;
             position: relative;
-            left: 15rem;
-            top: -15rem;
+            left: 15rem;//used to be 15rem
+            top: -15rem;//used to be -15rem
             // border: 6px solid blue; you used this to find the area of the box behind the img.. very usefull
 
             //point break fix for this img
             @include respond(bg-desk-cus) {
-                left: 15rem;
-                top: -17rem;
+                left: 15rem;//used to be 15rem
+                top: -17rem;//used to be -17rem
             }
 
             @include respond(lg-desk-cus) {
-                left: 10.7rem;
-                top: -18rem;
+                left: 10.7rem;//used to be 10.7rem
+                top: -18rem;//used to be -18rem
             }
 
             @include respond(lg-desk-max-cus) {
-                left: 14rem;
-                top: -15rem;
+                left: 14rem;//used to be 14rem
+                top: -15rem;//used to be-15rem
             }
 
             @include respond(phone) {
-                left: 11rem;
-                top: -16rem;
+                left: 11rem;//used to be
+                top: -16rem;//used to be
                 
             }
         }
@@ -303,7 +316,7 @@
             left: -2rem;
       
             @include respond(tab-land){
-                left: 3rem;
+                
             }
 
             @include respond(tab-port){
@@ -418,7 +431,7 @@
 
             .lg-pic {
                 width: 361px;
-                height: 443px;
+                height: 431px;
                 position: relative;
                 left: -1.3rem;
                 overflow: hidden;
@@ -427,12 +440,18 @@
                     left: -.3rem;
                     overflow: hidden;
                 }
+
+             
                 img {
                     width: 350px;
                     height: auto;
 
                     @include respond(phone) {
                         width: 361px;
+                    }
+
+                    @include respond(bg-desk-cus){
+                        width: 320px;
                     }
                 }
 
@@ -443,6 +462,7 @@
                     
                     @include respond(phone) {
                         left: -2rem;
+                        width: 361px
                     }
                 }
             }
